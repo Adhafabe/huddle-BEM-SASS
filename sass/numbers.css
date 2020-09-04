@@ -1,0 +1,26 @@
+.numbers {
+  display: block;
+  max-width: 180px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.numbers__content {
+  margin-bottom: 100px;
+}
+
+.numbers__img {
+  display: block;
+  margin: 10px 0;
+}
+
+.numbers__number {
+  font-weight: 700;
+  font-size: 66px;
+}
+
+.numbers__text {
+  text-align: center;
+  margin: 0;
+}
+/*# sourceMappingURL=numbers.css.map */

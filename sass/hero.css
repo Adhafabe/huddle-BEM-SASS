@@ -1,0 +1,14 @@
+.hero {
+  text-align: center;
+  margin: 0 21px;
+}
+
+.hero__text {
+  margin: 30px 0 50px 0;
+}
+
+.hero__imagen {
+  width: 90%;
+  margin: 80px 0;
+}
+/*# sourceMappingURL=hero.css.map */

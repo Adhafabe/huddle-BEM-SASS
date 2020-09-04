@@ -1,0 +1,22 @@
+.numbers{
+    display:block;
+    max-width: 180px;
+    margin:0 auto;
+    margin-bottom: 60px;
+    &__content{
+        margin-bottom: 100px;
+    }
+    &__img{
+        display: block;
+        margin: 10px 0;
+
+    }
+    &__number{      
+        font-weight: 700;
+        font-size: 66px;
+    }
+    &__text{
+        text-align: center;
+        margin: 0;
+    }
+}

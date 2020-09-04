@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--VeryDarkCyan);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.container {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.heading__h1 {
+  margin-top: 90px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 30px;
+  min-width: 200px;
+  color: white;
+  font-size: 14px;
+  background: var(--Pink);
+  border: solid 1px;
+  border-color: var(--Pink);
+  -webkit-box-shadow: -1px 8px 7px 4px rgba(196, 196, 196, 0.55);
+  box-shadow: -1px 8px 7px 4px rgba(196, 196, 196, 0.55);
+}
+
+.button__line {
+  padding: 10px;
+  border-radius: 30px;
+  min-width: 200px;
+  color: white;
+  font-size: 14px;
+  background: var(--Pink);
+  border: solid 1px;
+  border-color: var(--Pink);
+  -webkit-box-shadow: -1px 8px 7px 4px rgba(196, 196, 196, 0.55);
+  box-shadow: -1px 8px 7px 4px rgba(196, 196, 196, 0.55);
+  color: var(--Pink);
+  background: white;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: var(--Pink);
+  min-width: 100px;
+  padding: 5px;
+}
+/*# sourceMappingURL=generales.css.map */
