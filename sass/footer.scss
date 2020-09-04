@@ -1,0 +1,39 @@
+.footer{
+    background: var(--VeryDarkCyan);
+    color: var(--VeryPaleBlue);
+    padding: 18px;
+    &__title{
+        margin: 15px 0;
+    }
+    &__text{
+        margin-bottom: 30px;
+    }
+    &__input{
+        padding: 5px;
+        height: 25px;
+        border-radius: 6px;
+        margin-bottom: 15px;
+        width: 96%;
+    &__logo{
+        margin: 80px 0 20px 0;
+    }
+    &__contact{
+        display: block;
+        margin-bottom: 15px;
+    }
+    &__img{
+        margin-right: 10px;
+    }
+    .button{
+        float:right;
+        box-shadow: none;
+        border-radius: 5px;
+    }
+}
+.footer-wave-top{
+    background-image: url('../images/bg-footer-top-mobile.svg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+}

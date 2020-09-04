@@ -61,4 +61,14 @@
   background-repeat: no-repeat;
   background-image: url("../images/bg-section-bottom-mobile-2.svg");
 }
+
+.ready {
+  text-align: center;
+}
+
+.ready__title {
+  font-size: 30px;
+  color: var(--VeryDarkCyan);
+  margin-bottom: 30px;
+}
 /*# sourceMappingURL=secciones.css.map */
