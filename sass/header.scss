@@ -18,3 +18,11 @@
         vertical-align: -webkit-baseline-middle;
     }
 }
+
+@media screen and (min-width: 1440px){
+    .header{
+        &__imagen{
+            width: 140px;
+        }
+    }
+}

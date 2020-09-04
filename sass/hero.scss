@@ -9,3 +9,21 @@
         margin: 80px 0;
     }
 }
+
+@media screen and (min-width: 1440px){
+    .hero{
+        margin-top: 130px;
+        &__h1{
+            font-size: 50px;
+        }
+        &__text{
+            max-width: 608px;
+            margin: 26px auto 38px;
+        }
+        &__imagen{
+            width: 80%;
+            display: block;
+            margin: 80px auto;
+        }
+    }
+}

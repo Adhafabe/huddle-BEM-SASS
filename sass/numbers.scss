@@ -20,3 +20,26 @@
         margin: 0;
     }
 }
+
+@media screen and (min-width: 1440px){
+    .numbers{
+        display:flex;
+        max-width: 80%;
+        justify-content: space-around;
+        &__content{
+            margin-bottom: 100px;
+        }
+        &__img{
+            display: block;
+            margin: 10px 0;
+        }
+        &__number{      
+            font-weight: 700;
+            font-size: 66px;
+        }
+        &__text{
+            text-align: center;
+            margin: 0;
+        }
+    }
+}

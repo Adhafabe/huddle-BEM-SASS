@@ -14,6 +14,7 @@
         border-radius: 6px;
         margin-bottom: 15px;
         width: 96%;
+    }
     &__logo{
         margin: 80px 0 20px 0;
     }
@@ -24,16 +25,58 @@
     &__img{
         margin-right: 10px;
     }
+    &__icons{
+        margin: 48px 0;
+    }
     .button{
         float:right;
         box-shadow: none;
         border-radius: 5px;
+        margin-right: 17px;
     }
 }
+
+.fab{
+    margin-right: 10px;
+    font-size: 30px;
+}
+
 .footer-wave-top{
     background-image: url('../images/bg-footer-top-mobile.svg');
     background-repeat: no-repeat;
     width: 100%;
     height: 50px;
     margin-top: 100px;
+}
+
+
+@media screen and (min-width: 1440px){
+    .footer-wave-top{
+        height: 150px;
+        width: 100%;
+        background-image: url('../images/bg-footer-top-desktop.svg');
+    }
+
+    .footer{
+        display:flex;
+        padding-top: 53px;
+        justify-content: space-around;
+        &__left {
+            order: 2;
+        }
+        &__text {
+            max-width: 379px;
+        }
+        &__input {
+            width: 328px;
+            margin-right: 30px;
+        }
+        &__logo{
+            margin: 0px 0 20px 0;
+        }
+        .button {
+            min-width: auto;
+            width: 140px;
+        }
+    }
 }
