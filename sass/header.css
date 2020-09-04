@@ -28,6 +28,9 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .header {
+    margin-top: 30px;
+  }
   .header__imagen {
     width: 140px;
   }

@@ -93,6 +93,9 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
+  .header {
+    margin-top: 30px;
+  }
   .header__imagen {
     width: 140px;
   }
@@ -179,6 +182,7 @@ body {
   .numbers__text {
     text-align: center;
     margin: 0;
+    font-size: 19px;
   }
 }
 
